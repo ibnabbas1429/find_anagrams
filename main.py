@@ -11,7 +11,7 @@ def find_anagram(word, anagram):
     if (sorted(word) == sorted(anagram)):
         return are_words_anagrams
     else:
-        return(False)
+        return False
 
     
     
